@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cor do fundo da pagina */
+
+body{
+    background-color: black;
+}
+/* cabeçario da pagina */
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    height: 131px;
+}
+/* logo */
+header div{
+    display: flex;
+    align-items: center;
+}
+header div img{
+    padding: 15px;
+}
+/*  */
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height:131px ;
+    font-size: 29px;
+  
+
+}
+header nav ul{
+    height: 100%;
+    display: flex;
+
+    align-items: center;
+    
+    
+    
+    
+}
+header nav ul a{ 
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    height: 100%;
+
+
+}
+header nav ul a:hover{
+    background-color: #2A9DA2;
+    transition: .6s
+}
+.azul{
+    background-color: #2A9DA2;
+    
+    
+}
+
+section{
+    background-image: url(./img/background.png);
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+ .texto{
+     font-size: 40px;
+    text-align: center;
+    background-color: rgba(0, 0,0, .6);
+    border: solid rgba(243, 243, 243, 0.5);
+    color: white;
+    padding: 50px 200px;
+}
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+footer ul{
+    display: inline;
+    list-style: none;
+    padding: 0 3px;
+    
+}
+footer ul li{
+    display:flex;
+    align-items: center;
+    padding: 3px;
+}
+footer figure img{
+  
+   height: 50px;
+   margin: 11px;
+   
+}
+footer div{
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   
+   
+
+}
+footer div img{
+  height: 30px;
+  display: flex;
+  padding: 0 20px;
+  
+
+}
